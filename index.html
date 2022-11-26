@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star-Wars</title>
+    <script src="./indesx.js"></script>
+    <script>let song = new Audio("http://soundfxcenter.com/movies/star-wars/8d82b5_Star_Wars_Main_Theme_Song.mp3");</script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class=" bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="stars4"></div>
+        <div id="logo">
+            <img src="./Image/star_wars.png" alt="star_wars">
+        </div>
+        <div id="search">
+            <input type="text" id="input" oninput="debouncefun(getData, 500)" placeholder="Enter Character Name....">
+        </div>
+        <div id="boom">
+            <div id="movies"></div>
+            <div id="moviesone"></div>
+        </div>
+    </div>
+</body>
+
+</html>
