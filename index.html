@@ -156,8 +156,12 @@
         tentwo.innerText = `Gender: ${ele.gender}`;
         let lop = document.createElement("h3");
         lop.innerText = `Year Of Birth: ${ele.birth_year}`
-
-        boo.append(pop, ten, tenone, tentwo, lop);
+        
+         let skin = document.createElement("h3");
+        skin.innerText = `Skin Color: ${ele.skin_color}`
+        let mass=document.createElement("h3");
+        mass.innerText=`Movie Name:${ele.mass}`
+        boo.append(pop, ten, tenone, tentwo, lop,skin);
 
         pora.append(boo);
     }
